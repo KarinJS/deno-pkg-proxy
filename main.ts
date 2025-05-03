@@ -41,7 +41,7 @@ serve(async (req) => {
   if (!owner || !repo) {
     return new Response(
       "Missing required query parameters: owner, repo, branch\n" +
-      "Example: https://deno-pkg-proxy.deno.dev/?owner=github&repo=docs&branch=HEAD",
+      "Example: https://pkg-proxy.deno.dev/?owner=github&repo=docs&branch=HEAD",
       { status: 400 }
     )
   }
