@@ -6,11 +6,5 @@
     ],
     "include": [],
     "entrypoint": "main.ts"
-  },
-  "imports": {
-    "neostandard": "npm:neostandard@^0.12.1"
-  },
-  "tasks": {
-    "dev": "deno run --allow-net --allow-env --watch main.ts"
   }
 }
